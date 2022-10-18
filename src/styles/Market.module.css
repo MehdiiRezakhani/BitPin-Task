@@ -1,0 +1,158 @@
+.MarketBox {
+  margin: 30px;
+  background-color: #050846;
+  color: #fff;
+}
+@media (max-width: 350px) {
+  .MarketBox {
+    margin: 30px 15px;
+  }
+}
+.MarketBox div:first-child {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 12px;
+}
+.MarketBox div:first-child h4 {
+  font-size: 2.2rem;
+}
+@media (max-width: 550px) {
+  .MarketBox div:first-child h4 {
+    font-size: 1.5rem;
+  }
+}
+.MarketBox div:first-child input {
+  color: rgb(101, 102, 176);
+  background-color: #050846;
+  width: 100px;
+  padding: 4px 6px;
+  font-size: 1rem;
+  border: 1px solid rgb(101, 102, 176);
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.MarketBox div:first-child input:focus {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+table tr {
+  border-top: 1px solid #42e06d;
+}
+table tr th, table tr td {
+  text-align: left;
+  padding: 20px;
+  font-size: 1.2rem;
+}
+@media (max-width: 550px) {
+  table tr th, table tr td {
+    padding: 15px;
+  }
+}
+@media (max-width: 400px) {
+  table tr th, table tr td {
+    padding: 10px;
+    font-size: 0.8rem;
+  }
+}
+table tr td a {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: #fff;
+  text-decoration: none;
+}
+table tr td a img {
+  width: 2.3rem;
+}
+table tr td a h2 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin: 0px 10px;
+}
+@media (max-width: 550px) {
+  table tr td a h2 {
+    margin-left: 7px;
+  }
+}
+@media (max-width: 400px) {
+  table tr td a h2 {
+    font-size: 0.8rem;
+  }
+}
+table tr td a h3 {
+  font-size: 1.1rem;
+  font-weight: 500;
+  padding: 2px 5px;
+  color: #9591ef;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+}
+@media (max-width: 550px) {
+  table tr td a h3 {
+    display: none;
+  }
+}
+@media (max-width: 550px) {
+  table tr th:nth-child(3), table tr th:nth-child(4) {
+    display: none;
+  }
+}
+@media (max-width: 550px) {
+  table tr td:nth-child(3), table tr td:nth-child(4) {
+    display: none;
+  }
+}
+table tr th:last-child {
+  display: none;
+}
+@media (max-width: 550px) {
+  table tr th:last-child {
+    display: block;
+  }
+}
+table tr td:last-child {
+  display: none;
+}
+@media (max-width: 550px) {
+  table tr td:last-child {
+    display: block;
+  }
+}
+
+.GreenChange {
+  color: #fff;
+  background-color: #02c076;
+  padding: 8px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.RedChange {
+  color: #fff;
+  background-color: #f84960;
+  padding: 8px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.Nothing {
+  font-size: 1.5rem;
+  padding: 15px;
+}/*# sourceMappingURL=Market.module.css.map */

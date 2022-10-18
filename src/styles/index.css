@@ -1,0 +1,17 @@
+html {
+  font-size: 9px;
+}
+
+* {
+  font-family: "Poppins";
+  font-style: normal;
+  margin: 0px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: center;
+  background-color:#050846;
+}
