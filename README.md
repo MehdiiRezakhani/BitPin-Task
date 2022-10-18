@@ -1,3 +1,8 @@
+# About this project 
+This app shows the current price, change percentage, market cap and other detail of any crypto.
+The data is loaded from [BitPin.ir](https://bitpin.ir)).
+React, Axios, Material-UI, and Sass have been used in this website.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
